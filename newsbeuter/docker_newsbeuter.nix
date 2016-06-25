@@ -25,5 +25,6 @@ dockerTools.buildImage {
   config = {
     Entrypoint = [ "newsbeuter" ];
     WorkingDir = "/home/user";
+    User = "user";
   };
 }
