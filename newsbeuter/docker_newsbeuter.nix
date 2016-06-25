@@ -10,7 +10,7 @@
 with pkgs;
 
 dockerTools.buildImage {
-  name = "newsbeuter";
+  name = "rdesfo/newsbeuter";
   runAsRoot = ''
     #!${stdenv.shell}
     ${dockerTools.shadowSetup}
